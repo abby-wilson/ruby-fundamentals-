@@ -14,6 +14,8 @@ if action == "walk"
 elsif action == "run"
   distance_from_home += 5
   puts "Distance from home is #{distance_from_home}km"
+else action == !"(go home, walk, run)"
+  puts "Command does not exist"
 
 end
 end
